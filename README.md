@@ -34,7 +34,7 @@ In another terminal, use the following command to run the node:
     
     $ros2 run ros2_kdl_package ros2_kdl_node --ros-args -p cmd_interface:=effort
 
-To rewatch the record, unzip the ROSBAG_PUNTO_3 and ROSBAG_PUNTO_4 folders and write on a terminal this command:
+To rewatch the records, unzip the ROSBAG_PUNTO_3 and ROSBAG_PUNTO_4 folders and write on a terminal this command:
 
     $ros2 launch iiwa_bringup iiwa.launch.py command_interface:="effort" robot_controller:="effort_controller"
 
